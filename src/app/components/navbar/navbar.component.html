@@ -1,0 +1,23 @@
+<button class="hamburger hamburger--position-r" type="button" (click)="showAndHide()" [ngClass]="toggle ? 'hamburger--collapse is-active': ''">
+  <span class="hamburger-box">
+    <span class="hamburger-inner hamburger-inner--bg-white"></span>
+  </span>
+</button>
+
+<nav *ngIf="toggle" [ngClass]="toggle ? 'animate__animated animate__fadeInTopRight ' : '' ">
+  <ul class="">
+    <li class="li--color li--size">hola</li>
+    <li class="li--color li--size">hola</li>
+    <li class="li--color li--size">hola</li>
+  </ul>
+</nav>
+
+<div id="nav__efect"></div>
+
+
+
+
+   
+
+
+

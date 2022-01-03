@@ -1,0 +1,153 @@
+/* Colors : #30aceb*/
+nav {
+	display: none;
+    position: fixed;
+    z-index: 0;
+    top:-150px;
+    right: -170px;
+    display: inline-block;
+    height:500px;
+    width:500px;
+    border-bottom-left-radius:250px;
+    border-top-left-radius:250px;
+    border-bottom-right-radius:250px;
+    background-color: aqua;
+}
+
+
+.none {
+	display: none;
+}
+
+
+/* -----*/
+ul {
+	z-index: 3;
+    position: relative;
+    top: 50%;
+    left: 50%;
+}
+
+.li--color {
+	color:white;
+}
+.li--size {
+	font-size: 3rem;
+}
+.ul--pr {
+ position: fixed;
+ right: 5%;
+}
+/* ------- */
+
+
+.hamburger-box { 
+	height: 10px;
+}
+
+.hamburger--position-r {
+	position:fixed;
+	right: 3%;
+	z-index:999;
+}
+
+.hamburger-inner--bg-white , 
+.hamburger-inner--bg-white::after , 
+.hamburger-inner--bg-white::before {
+ background-color: white;
+}
+
+nav a:hover{
+	color: rgba(255,255,255,1);
+	border-bottom-color:rgba(255,255,255,0.4)}
+
+
+
+	/* Medias Queries */
+
+	@media (min-width: 320px) { 
+			
+		nav {
+		
+				top: -128px;
+				right: -99px;
+				height: 415px;
+				width: 388px;
+				border-bottom-left-radius: 273px;
+				border-top-left-radius: 130px;
+				border-bottom-right-radius: 64px;
+				background-color: red;
+			
+		}
+
+	 }
+
+	@media (min-width: 640px) { 
+			
+		nav 
+			 {
+				
+					top: -286px;
+					right: -180px;
+					height: 653px;
+					width: 600px;
+					border-bottom-left-radius: 350px;
+					border-top-left-radius: 250px;
+					border-bottom-right-radius: 250px;
+					background-color: violet;
+			
+			
+		}
+
+	 }
+
+	 
+	@media (min-width: 768px) { nav {
+		top: -222px;
+		right: -250px;
+		height: 725px;
+		width: 750px;
+		border-bottom-left-radius: 535px;
+		border-top-left-radius: 250px;
+		border-bottom-right-radius: 250px;
+		background-color: rgba(62, 44, 92,0.9);
+	} }
+
+
+	@media (min-width: 1280px) { 
+		nav {
+			top: -222px;
+			right: -250px;
+			height: 725px;
+			width: 750px;
+			border-bottom-left-radius: 535px;
+			border-top-left-radius: 250px;
+			border-bottom-right-radius: 250px;
+			background-color: rgba(62, 44, 92,1);
+		}
+	}
+	@media (min-width: 1536px) { 
+		nav {
+			height:500px;
+		width:500px;
+		border-radius: 100%;
+		/* border-bottom-left-radius:250px;
+		border-top-left-radius:250px;
+		border-bottom-right-radius:250px; */
+		background-color: rgba(62, 44, 92,1);
+		}
+	 }
+
+	 :host {
+		display: block;
+		margin-top: 1rem;
+	  }
+	  
+	  .open-close-container {
+		border: 1px solid #dddddd;
+		margin-top: 1em;
+		padding: 20px 20px 0px 20px;
+		color: #000000;
+		font-weight: bold;
+		font-size: 20px;
+	  }
