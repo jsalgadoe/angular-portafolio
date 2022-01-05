@@ -1,4 +1,4 @@
-/* Colors : #30aceb*/
+/* Colors : rgb(35 25 52) botton-hambuger;*/
 nav {
 	display: none;
     position: fixed;
@@ -11,7 +11,7 @@ nav {
     border-bottom-left-radius:250px;
     border-top-left-radius:250px;
     border-bottom-right-radius:250px;
-    background-color: aqua;
+    background-color: rgb(84 60 124);
 }
 
 
@@ -43,9 +43,19 @@ ul {
 }
 /* ------- */
 
+.hamburger {
+	padding: 20px 15px;
+}
 
 .hamburger-box { 
 	height: 10px;
+	width: 35px;
+	
+}
+
+.hamburger--color-purple{
+	background-color: rgb(84 60 124);
+	border-radius: 100%;
 }
 
 .hamburger--position-r {
@@ -58,6 +68,7 @@ ul {
 .hamburger-inner--bg-white::after , 
 .hamburger-inner--bg-white::before {
  background-color: white;
+ width: 35px;
 }
 
 nav a:hover{
@@ -74,19 +85,18 @@ nav a:hover{
 		
 				top: -128px;
 				right: -99px;
-				height: 415px;
+				height: 430px;
 				width: 388px;
 				border-bottom-left-radius: 273px;
 				border-top-left-radius: 130px;
 				border-bottom-right-radius: 64px;
-				background-color: rgba(62, 44, 92, 1 );
+				background-color: rgb(84 60 124);
 			
 		}
 
 		ul{
-			padding-top: 175px;
-			padding-left: 45%;
-			
+		    padding-top: 180px;
+    		padding-left: 40%;		
 		}
 
 		.a--size {
@@ -95,6 +105,14 @@ nav a:hover{
 
 		.li {
 			line-height: 32px;
+		}
+
+		/*Hamburguer*/
+
+
+		.hamburger--position-r {
+		    right: 3%;
+    		top: 3%;
 		}
 
 	 }
@@ -111,7 +129,7 @@ nav a:hover{
 					border-bottom-left-radius: 350px;
 					border-top-left-radius: 250px;
 					border-bottom-right-radius: 250px;
-					background-color: rgba(62, 44, 92,1);
+					background-color: rgb(84 60 124);
 			
 			
 		}
@@ -132,8 +150,17 @@ nav a:hover{
 		border-bottom-left-radius: 535px;
 		border-top-left-radius: 250px;
 		border-bottom-right-radius: 250px;
-		background-color: rgba(62, 44, 92,1);
-	} }
+		background-color: rgb(84 60 124);
+	} 
+
+
+	.hamburger--position-r {
+		right: 3%;
+		top: 5%;
+	}
+
+
+}
 
 
 	@media (min-width: 1280px) { 
@@ -145,7 +172,7 @@ nav a:hover{
 			border-bottom-left-radius: 535px;
 			border-top-left-radius: 250px;
 			border-bottom-right-radius: 250px;
-			background-color: rgba(62, 44, 92,1);
+			background-color: rgb(84 60 124);
 		}
 	}
 	@media (min-width: 1536px) { 
@@ -153,7 +180,7 @@ nav a:hover{
 		height:500px;
 		width:500px;
 		border-radius: 100%;
-		background-color: rgba(62, 44, 92,1);
+		background-color: rgb(84 60 124);
 		}
 	 }
 
