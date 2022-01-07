@@ -4,6 +4,13 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {},
+    fontFamily: {
+      nunito: ['Nunito'],
+      robotoMono: ['Roboto Mono'],
+      arvo:['Arvo']
+  
+       // Ensure fonts with spaces have " " surrounding it.
+    },
   },
   variants: {
     extend: {},
