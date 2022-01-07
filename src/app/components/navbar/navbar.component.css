@@ -124,8 +124,8 @@ nav a:hover{
 				
 					top: -286px;
 					right: -180px;
-					height: 653px;
-					width: 600px;
+					height: 680px		;
+						width: 580px				;
 					border-bottom-left-radius: 350px;
 					border-top-left-radius: 250px;
 					border-bottom-right-radius: 250px;
@@ -139,14 +139,18 @@ nav a:hover{
 			padding-left: 39%;
 		}
 
+		.a--size {
+			@apply text-3xl
+		}
+
 	 }
 
 	 
 	@media (min-width: 768px) { nav {
 		top: -222px;
 		right: -250px;
-		height: 725px;
-		width: 750px;
+		height: 700px;
+		width: 700px;
 		border-bottom-left-radius: 535px;
 		border-top-left-radius: 250px;
 		border-bottom-right-radius: 250px;
@@ -156,8 +160,23 @@ nav a:hover{
 
 	.hamburger--position-r {
 		right: 3%;
-		top: 5%;
+		top: 2%;
 	}
+
+	.a--size {
+		font-size: 40px;
+		
+	}
+
+	ul{
+		padding-top: 335px;
+		padding-left: 35%;
+	}
+
+	.li--line-height {
+		line-height: 50px;
+	}
+	
 
 
 }
