@@ -48,10 +48,7 @@ window.onload = function() {
           new TxtType(elements[i], JSON.parse(toRotate), period);
         }
     }
-   // INJECT CSS
-    let css = document.createElement("style");
-    css.type = "text/css";
-    css.innerHTML = ".typewrite > .wrap { color: black; font-weight:700 ; font-size: 3.5vw; }  .wrap::before {   content: '['; padding-right: 8px; color: black; font-weight:700 } .wrap::after {   content: ' ]'; padding-right: 8px; color: black; font-weight:700 }  ";
-    document.body.appendChild(css);
+
+
 };
 
