@@ -1,0 +1,42 @@
+.head-spaceman{
+    right: 20%;
+}
+
+.tossing{
+	animation-name: tossing;
+	-webkit-animation-name: tossing;	
+
+	animation-duration: 3.5s;	
+	-webkit-animation-duration: 3.5s;
+	
+	transform-origin: 50% 90%;
+	-ms-transform-origin: 50% 90%;
+	-webkit-transform-origin: 50% 90%; 
+
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+}
+
+@keyframes tossing {
+	0% {
+		transform: rotate(-3deg);	
+	}
+	50% {
+		transform: rotate(3deg);
+	}
+	100% {
+		transform: rotate(-3deg);	
+	}						
+}
+
+@-webkit-keyframes tossing {
+	0% {
+		-webkit-transform: rotate(-3deg);	
+	}
+	50% {
+		-webkit-transform: rotate(3deg);
+	}
+	100% {
+		-webkit-transform: rotate(-3deg);	
+	}				
+}
